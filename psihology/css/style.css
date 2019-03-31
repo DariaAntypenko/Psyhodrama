@@ -1,0 +1,38 @@
+
+
+@media only screen and (min-width: 601px){
+    nav , nav ul a {
+        height: 100px;
+        line-height: 100px;
+        color: #6a2045;
+        font-weight: bold;
+    }
+}
+
+nav {
+    background: #fff;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.logo-img{
+    width: 100px;
+}
+nav .brand-logo {
+    line-height: initial;
+}
+
+.container-max {
+    width: 100%;
+}
+.collapsible {
+     border-top: none;
+     border-right: 1px solid #ddd;
+     border-left: 1px solid #ddd;
+}
+
+.pop-up-registration {
+    width: 50%;
+    margin: 15px auto;
+}

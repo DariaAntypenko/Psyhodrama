@@ -1,5 +1,18 @@
+*{
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
 
-
+.cont-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.mt {
+    margin-top: 100px;
+}
+.gradient {
+    background-image: linear-gradient(to right, #692146 15% , #f98ec5);
+}
 @media only screen and (min-width: 601px){
     nav , nav ul a {
         height: 100px;
@@ -12,6 +25,7 @@
 nav {
     background: #fff;
     position: fixed;
+    top: 0;
     z-index: 1000;
 
 }
@@ -22,7 +36,9 @@ nav {
 nav .brand-logo {
     line-height: initial;
 }
-
+img.face-bg {
+    height: 500px;
+}
 .container-max {
     width: 100%;
 }
@@ -35,4 +51,17 @@ nav .brand-logo {
 .pop-up-registration {
     width: 50%;
     margin: 15px auto;
+}
+.card-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+
+}
+
+.text-info{
+    font-size: 20px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
 }

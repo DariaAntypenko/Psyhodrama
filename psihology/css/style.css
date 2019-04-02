@@ -86,9 +86,8 @@ img.face-bg {
 }
 
 .collapsible {
-     border-top: none;
-     border-right: 1px solid #ddd;
-     border-left: 1px solid #ddd;
+     border: none;
+    box-shadow: none;
 }
 
 .pop-up-registration {

@@ -1,8 +1,17 @@
 *{
     /*font-family: 'Oswald', sans-serif;*/
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
 }
-
+body {
+    /*background: #6a2045;*/
+    background-image: linear-gradient(to bottom right, #7d03ff, #71f50d);
+}
+.container-max {
+    width: 100%;
+}
 .cont-flex {
     display: flex;
     justify-content: space-between;
@@ -10,9 +19,45 @@
 .mt {
     margin-top: 100px;
 }
-.gradient {
-    background-image: linear-gradient(to right, #692146 15% , #f98ec5);
+.p20 {
+    padding: 20px;}
+.mt-50 {
+    margin-top: 50px;
+    padding: 25px;
 }
+.bg {
+    width: 100%;
+    height: 100%;
+    background: url("../img/ab.png");
+    background-size:  cover;
+}
+.white {
+    background: #ffffff;
+}
+.black {
+    background: rgba(0, 0, 0, 0.3)!important;
+}
+.white-font {
+    color: #fff;
+}
+.green {
+    background-color: #51b328;
+}
+h1 {
+    font-size: 4.8rem;
+    line-height: 172%;
+    padding: 110px 0;
+    margin: 2.8rem 0 1.68rem 0;
+    text-transform: uppercase;
+}
+
+
+/*.gradient-burgundi {*/
+    /*background-image: linear-gradient(to right, #692146 15% , #f98ec5);*/
+/*}*/
+/*.gradient-green {*/
+    /*background-image: linear-gradient(to bottom right, #030e03 , #21b125, #030e03 );*/
+/*}*/
 @media only screen and (min-width: 601px){
     nav , nav ul a {
         height: 100px;
@@ -39,9 +84,7 @@ nav .brand-logo {
 img.face-bg {
     height: 500px;
 }
-.container-max {
-    width: 100%;
-}
+
 .collapsible {
      border-top: none;
      border-right: 1px solid #ddd;
@@ -51,17 +94,51 @@ img.face-bg {
 .pop-up-registration {
     width: 50%;
     margin: 15px auto;
+    background: rgba(255, 255, 255, 0.60);
+    border-radius: 2px;
 }
 .card-image {
     width: 100%;
-    height: 400px;
+    height: 630px;
     background-size: cover;
 
 }
-
+ul#FAQ {
+    border-radius: 2px;}
 .text-info{
-    font-size: 20px;
+    font-size: 28px;
     padding-top: 50px;
     color: #fff;
     text-align: center;
 }
+/*.burg {*/
+    /*background: #6a2045;*/
+/*}*/
+
+
+.block-price{
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #ff03bb, #e6f50d);
+    color: #fff;    border-radius: 2px;
+}
+.block-price p {
+    margin: 5px auto ;
+}
+.title-conference{
+    color: #fff;    text-align: center;}
+
+.card-reveal p{
+font-size: 23px;}
+
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+.collapsible-header, .card .card-content {
+    background-color: rgba(255, 255, 255, 0.60);}
+
